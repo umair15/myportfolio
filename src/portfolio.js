@@ -23,7 +23,7 @@ const greeting = {
   username: "Umair Ehsan",
   title: "Hi all, I'm Umair",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A results-driven software engineering leader with 15+ years of experience in .NET technologies, architecting scalable backend systems, and leading teams to deliver 50+ complex projects across cloud, web, and mobile platforms."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Umair-Ehsan-SE",
+  github: "https://github.com/umair15",
   linkedin: "https://www.linkedin.com/in/Umair-Ehsan-SE/",
   gmail: "omairahsan@gmail.com",
-  gitlab: "https://gitlab.com/Umair-Ehsan-SE",
-  facebook: "https://www.facebook.com/Umair-Ehsan-SE",
-  medium: "https://medium.com/@Umair-Ehsan-SE",
-  stackoverflow: "https://stackoverflow.com/users/10422806/Umair-Ehsan-SE",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +45,28 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "An experienced Full Stack Developer with a passion for exploring diverse technology stacks and building scalable solutions.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and develop scalable full stack applications using .NET and Angular / React"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Build high-performance, responsive, and interactive user interfaces with Angular / React"
+    ),
+    emoji(
+      "⚡ Architect and develop robust backend systems, REST APIs, and microservices using .NET Core"
+    ),
+    emoji(
+      "⚡ Cloud expertise in Microsoft Azure including App Services, Azure SQL, Logic Apps, and CI/CD pipelines"
+    ),
+    emoji(
+      "⚡ Migrate legacy applications to modern cloud-native architectures and optimize performance"
+    ),
+    emoji(
+      "⚡ Integrate third-party services and APIs across cloud platforms like Azure and AWS"
+    ),
+    emoji(
+      "⚡ Lead engineering teams, drive best practices, and deliver enterprise-grade solutions"
     )
   ],
 
@@ -65,56 +75,36 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: ".NET",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
+        {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+     {
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "MSSQL/PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+     {
+      skillName: "AI/ML",
+      fontAwesomeClassname: "fas fa-robot"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -127,22 +117,19 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of the Punjab",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      logo: require("./assets/images/pu.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2006 - June 2010",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, Database Systems, Computer Networks, Data Structures and Algorithms",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Ahmed Hassan Polytechnic Institute",
+      logo: require("./assets/images/AHP.jpg"),
+      subHeader: "Diploma of Associate Engineering in Electronics & Computer Science",
+      duration: "March 2003 - April 2005",
+      desc: "Took courses about Electronic Devices, Digital Logic Designs, Object oriented Programming in C++, Operating Systems",
+     // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,16 +140,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Archetecture & Design", //Insert stack or technology you have experience in
+      progressPercentage: "97%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Database", //Insert stack or technology you have experience in
+      progressPercentage: "92%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Frontend",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
